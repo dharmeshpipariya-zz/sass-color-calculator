@@ -1,0 +1,23 @@
+{
+  "name": "sass-color-calculator",
+  "version": "1.0.0",
+  "description": "Dharmesh Pipariya",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Dharmesh Pipariya",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cache-bust": "^1.1.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-minify": "^1.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
