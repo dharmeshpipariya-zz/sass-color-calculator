@@ -11,7 +11,7 @@
   <meta name="description" content="">
   <meta name="author" content="Dharmesh Pipariya">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <title>Sass Color Calculator</title>
+  <title>Sass Color Calculator | A Tool for Dynamaically Visualizing SASS HSL Color Calculator</title>
   <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
   <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
@@ -29,7 +29,7 @@
   <section class="section">
     <div class="container card" ng-controller="SccController">
       <div class="colours-container">
-        <div style="background:{{scc.colorA}}">
+        <div style="color:{{scc.colorA}};background:{{scc.colorA}};">
           <input type="text" name="input" ng-model="scc.colorA" ng-model-options="{ getterSetter: true }">
         </div>
         <div style="background:{{scc.colorB}};">

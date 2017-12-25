@@ -94,7 +94,20 @@ body {
     width: 50%;
     float: left;
     text-align: center;
-    padding: 48px 0;
+    padding: 100px 0;
+
+    &:first-child::after {
+      position: absolute;
+      top: 0;
+      right: -40px;
+      width: 0;
+      height: 0;
+      border-top: 0;
+      border-bottom: 245px solid transparent;
+      border-left: 40px solid currentColor;
+      z-index: 10;
+      content: '';
+    }
 
     input {
       position: relative;
